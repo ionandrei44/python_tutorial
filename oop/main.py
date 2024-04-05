@@ -18,4 +18,8 @@ print(car_2.model)
 print(car_2.year)
 print(car_2.color)
 
+print("---------------------")
 
+print(car_1.wheels, car_2.wheels)
+
+print(Car.wheels)
