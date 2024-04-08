@@ -1,27 +1,31 @@
 class Animal:
 
-  alive = True
+    alive = True
 
-  def eat(self):
-    print("This animal is eating")
-  
-  def sleep(self):
-    print("This animal is sleeping")
+    def eat(self):
+        print("This animal is eating")
+
+    def sleep(self):
+        print("This animal is sleeping")
+
 
 class Rabbit(Animal):
 
-  def run(self):
-    print("This rabbit is running")
+    def run(self):
+        print("This rabbit is running")
+
 
 class Fish(Animal):
 
-  def swim(self):
-    print("This fish is swimming")
+    def swim(self):
+        print("This fish is swimming")
+
 
 class Hawk(Animal):
 
-  def fly(self):
-    print("This hawk is flying")
+    def fly(self):
+        print("This hawk is flying")
+
 
 rabbit = Rabbit()
 fish = Fish()
@@ -34,4 +38,3 @@ hawk.sleep()
 rabbit.run()
 fish.swim()
 hawk.fly()
-
