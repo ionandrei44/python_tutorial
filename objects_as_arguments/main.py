@@ -1,14 +1,17 @@
 class Car:
 
-  color = None
+    color = None
+
 
 class Motorcycle:
 
-  color = None
+    color = None
+
 
 def change_color(vehicle, color):
 
-  vehicle.color = color
+    vehicle.color = color
+
 
 car_1 = Car()
 car_2 = Car()
